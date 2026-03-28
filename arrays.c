@@ -55,13 +55,13 @@ int main(){
 int main(int argc, char **argv)
 {
     // create an array of 10 integers
-    int myarray[10] = {1,2,3,4,5,6,7,8,9,10};
+    int myarray[10] = {0}; // initialize all elements to 0
 
     // set the 4th element to 2
-    myarray[4] = 2;
+    myarray[3] = 2; // updated, remember zero indexing!
 
     // print the 4th element
-    printf("%d\n", myarray[4]);
+    printf("%d\n", myarray[3]);
 
     return 0;
 }

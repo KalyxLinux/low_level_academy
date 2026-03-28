@@ -62,12 +62,20 @@ int main()
 // Finish the employee struct. Create a character buffer to store the employees name and a variable for his age
 // Create an employee named "Steve", 42 years old.
 #include <stdio.h>
-struct Employee {
-    int name[64]; 
-    int age[3];
+struct Employee
+{
+    char name[64]; // string buffer to store the name of the employee
+    int age; // single integer to store the age of the employee
 };
-int main(int argc, char **argv) {
-    struct Employee emp = {"steve", 42, 0};
+
+int main(int argc, char **argv)
+{
+    struct Employee emp = {"steve", 42};
     printf("%s, aged %d years\n", emp.name, emp.age);
     return 0;
 }
+// returns steve, aged 42 years
+
+// I had to make small adjustments to get the code to run and return the proper output.
+// I came close the first go but I was mixing up the types and syntax strcucture for them.
+// I internalized the solves and syntax mistakes.

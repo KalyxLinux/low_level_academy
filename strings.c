@@ -50,7 +50,9 @@ int main(int argc, char **argv)
 
     // create the same string
     // as a character array
-    char otherstr[] = {'h', 'e', 'h', 'e', 0};
+    char otherstr[] = {0x68, 0x65, 0x68, 0x65, 0}; 
+    //hex for 'h', 'e', 'h', 'e' and null terminator
+    //my original code was missing the hexstring due to having no knowledge of hex, I had to look up the hex values for the characters and add them in.
 
     if(!strcmp(str, otherstr))
     {

@@ -1,5 +1,5 @@
 Unions:
-Unions are a field that assign multiple labels of multiple types to the same memeoiry location.
+A union is one piece of memeory interpreted in different ways.
 
 Example:
 union myunion
