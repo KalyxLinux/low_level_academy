@@ -28,9 +28,9 @@ int main()
 
     return 0;
 }
-// intial code, and syntax-lots of errors
+// Intial code, and syntax-lots of errors
 
-//Exercise revised
+// Exercise revised
 #include <stdio.h>
 
 int main()
@@ -48,4 +48,55 @@ int main()
 
     return 0;
 };
-//returns Kalyx has made 153 baskets.
+// returns Kalyx has made 153 baskets.
+
+Drill Set 1 - Core Syntax
+
+// Exercise 1A - Variable + printf
+// Write a program that:
+// Declares an int age = 25;
+// Prints - I am 25 years old
+// Uses %d
+
+#include <stdio.h>
+
+int main()
+{
+    int age = 25;
+    printf("I am %d years old\n", age);
+
+    return 0;
+};
+// Returns I am 25 years old
+
+// Exercise 1B - String + %s
+// Declare - char name[32] = "Kalyx";
+// Print exactly - My name is Kalyx
+
+#include <stdio.h>
+
+int main()
+{
+    char name[32] = "Kalyx";
+    printf("My name is %s\n", name);
+
+    return 0;
+};
+// Returns My name is Kalyx
+
+// Exercise 1C - Combine
+// Declare both int age = 25; char name[32] = "Kalyx";
+// Print exactly - Kalyx is 25 years old
+
+#include <stdio.h>
+
+int main()
+{
+    int age = 25;
+    char name[32] = "Kalyx";
+
+    printf("%s is %d years old\n", name, age);
+
+    return 0;
+}
+// Returns Kalyx is 25 years old
