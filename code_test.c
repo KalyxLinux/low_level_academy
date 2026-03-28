@@ -1,13 +1,17 @@
 #include <stdio.h>
-struct Employee
-{
-    char name[64]; // string buffer to store the name of the employee
-    int age; // single integer to store the age of the employee
-};
 
-int main(int argc, char **argv)
+int main()
 {
-    struct Employee emp = {"steve", 42};
-    printf("%s, aged %d years\n", emp.name, emp.age);
+    int scores[5] = {24, 42, 33, 23, 31};
+    char name[64] = "Kalyx";
+
+    int sum = 0;
+    for (int i = 0; i < 5; i++)
+    {
+        sum += scores[i];
+    }
+
+    printf("%s has made %d baskets.\n", name, sum);
+
     return 0;
 }
