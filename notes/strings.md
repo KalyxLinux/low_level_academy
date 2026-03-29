@@ -44,5 +44,6 @@ It felt optional, but it’s actually required for correct behavior.
 * strings_exercise.c
 
 ## Extra Note
+
 I had to look up ASCII hex values (e.g. 'h' = 0x68).  
 This helped me understand that characters are just numbers in memory.
