@@ -36,9 +36,9 @@ return sends the value back to where the function was called.
 
 ## Function naming and style
 
--Name should describe what the function does.
--Each function should perform a single logical task.
--Example good names:
+- Name should describe what the function does.
+- Each function should perform a single logical task.
+- Example good names:
     int intializa_database(database_t *d);
     int destroy_database(database_t *d);
 
