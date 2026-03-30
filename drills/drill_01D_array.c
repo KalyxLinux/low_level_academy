@@ -10,4 +10,4 @@ int main()
     printf("Last: %d\n", nums[2]);
 
     return 0;
-}
+};
