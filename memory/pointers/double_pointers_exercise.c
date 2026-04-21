@@ -17,12 +17,13 @@ int foo(int **ptr)
 
     **ptr = value; 
     return 0;
-}
+};
 
-int main() {
+int main()
+{
     int *ptr = NULL;
     if (0 != foo(&ptr))
     {
         return -1;
     }
-}
+};
